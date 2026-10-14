@@ -6,6 +6,32 @@ NexusRAG enables users to upload PDF and TXT documents, chunk and index them int
 
 ---
 
+## 📸 Interface & Live Demo Showcase
+
+### 💬 Interactive RAG Workspace & Grounded Sources
+> Natural language query grounded strictly against selected documents, featuring retrieved source passages with similarity match scores, page citations, and inline query editing.
+
+![NexusRAG Interactive Workspace & Retrieved Sources](docs/images/nexusrag-demo-chat.png)
+
+<details>
+<summary><b>🔍 Click to view additional workflow interfaces (Welcome Hub & Real-Time Reasoning)</b></summary>
+
+<br>
+
+#### 1. Multi-Document Knowledge Base & Exploration Hub
+> Document library rail displaying indexed chunk counts, file sizes, bulk selection, and dynamically populated starter questions.
+
+![NexusRAG Document Library and Welcome Screen](docs/images/nexusrag-welcome.png)
+
+#### 2. Live Reasoning & Thought Progression
+> Real-time pipeline step indicator (`Searching documents` → `Reading passages` → `Writing answer`) with instant generation cancellation.
+
+![NexusRAG Thought Step Indicator](docs/images/nexusrag-streaming-step.png)
+
+</details>
+
+---
+
 ## 1. System Architecture & Data Flow
 
 ```mermaid
@@ -124,6 +150,11 @@ Rag_projets/
 │   ├── package.json
 │   ├── vite.config.js
 │   └── index.html
+├── docs/
+│   └── images/
+│       ├── nexusrag-demo-chat.png      # Interactive chat & source reference panel
+│       ├── nexusrag-welcome.png        # Knowledge base & starter prompts overview
+│       └── nexusrag-streaming-step.png # Real-time pipeline thought indicator
 ├── .gitignore
 └── README.md
 ```
