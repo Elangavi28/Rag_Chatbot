@@ -1,0 +1,18 @@
+Quantum Computing and Quantum Mechanics in Information Science
+
+Overview:
+Quantum computing is a rapidly-emerging technology that harnesses the laws of quantum mechanics to solve problems too complex for classical computers. 
+Classical computers encode information in binary bits that can either be 0 or 1. In contrast, quantum computers use quantum bits, or qubits.
+
+Key Principles:
+1. Superposition: A qubit can exist in a multidimensional state representing both 0 and 1 simultaneously until measured. This allows quantum algorithms to evaluate immense numbers of possibilities concurrently.
+2. Entanglement: Two or more qubits can become inextricably linked such that the state of one instantaneously influences the state of the other, regardless of distance. Albert Einstein famously described this phenomenon as 'spooky action at a distance'.
+3. Quantum Decoherence: Qubits are extremely sensitive to environmental disturbances such as temperature fluctuations and electromagnetic radiation. Decoherence causes qubits to lose their quantum state, leading to computation errors.
+
+Applications:
+- Cryptography: Shor's algorithm can factorize large prime integers in polynomial time, posing challenges for classical RSA encryption and driving the development of Post-Quantum Cryptography (PQC).
+- Drug Discovery: Simulating molecular interactions and protein folding at atomic precision, accelerating pharmaceuticals development.
+- Optimization: Solving logistical supply chain and portfolio optimization problems via quantum annealing and variational quantum eigensolvers (VQE).
+
+Hardware Leaders:
+Key organizations advancing quantum hardware include IBM with superconducting transmon processors, Google Quantum AI, and IonQ utilizing trapped ions.

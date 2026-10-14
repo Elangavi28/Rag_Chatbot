@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+backend/venv/
+backend/.venv/
+venv/
+.venv/
+env/
+.env
+
+# Vector DB & Uploads
+backend/data/uploads/*
+!backend/data/uploads/.gitkeep
+backend/data/chroma/*
+!backend/data/chroma/.gitkeep
+
+# Node / React
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+*.local
+
+# Logs and OS
+*.log
+.DS_Store
+Thumbs.db
